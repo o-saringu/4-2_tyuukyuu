@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第4章変数　STEP2-中級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第４章変数　STEP2-中級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="4syou_2_tyuukyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<img src="4syou_2_tyuukyuu_kekka.png">
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,円とそれぞれの円を線でつなぐプログラムです.</p>
+	<p>(1)for文を用いて,横に並んでいる赤い円と線を繰り返し表示させるプログラムを埋めてください.</p>
+	<p>　  ただし,int型の変数をxとして初期値は30,xがウィンドウの幅未満の場合実行し,ｘが30ずつ増加するようにしてください.</p>
+	<p>(2)for文を用いて,縦に並んでいる青い円と線を繰り返し表示させるプログラムを埋めてください.</p>
+	<p>　 ただし,int型の変数をyとして初期値は30,yがウィンドウの幅未満の場合実行し,ｘが30ずつ増加するようにしてください.</p>
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(1)(2)</p>
+	<p>繰り返しを用いる場合は以下のように記述する.</p>
+	<p>for(初期値をセット; 変数を評価; 変数の値の変化){</p>
+	<p>　　　繰り返し実行されるコード</p>
+	<p>}</p>
+	</div>
+	</div>
+	
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+
+	<p>(1)(int x=30; x<width; x+=30)</p>
+	<p>(2)(int y=30; y<height; y+=30)</p>
+	
+
+	<input type="button" id="btn" value="判定">
+	
+	
+	</div>
+
+	<script src = "main.js"></script>	
+</body>
+
+</html>
