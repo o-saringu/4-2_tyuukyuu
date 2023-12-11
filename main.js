@@ -5,13 +5,13 @@ function buttonClick(){
 	if (one.value == "(intx=30;x<width;x+=30)"){
 		text1.innerHTML = "正解";
 	}else{
-		text1.innerHTML = "不正解　解答：(int x=30; x<width; x+=30)";
+		text1.innerHTML = "不正解　解答：(int x=30; x＜width; x+=30)";
 	}
 
 	if (two.value == "(inty=30;y<height;y+=30)"){
 		text2.innerHTML = "正解";
 	}else{
-		text2.innerHTML = "不正解　解答：(int y=30; y<height; y+=30)";
+		text2.innerHTML = "不正解　解答：(int y=30; y＜height; y+=30)";
 	}
 
 	
